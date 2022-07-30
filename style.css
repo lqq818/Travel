@@ -121,25 +121,25 @@ a {
     float: left;
 }
 
+.center a {
+    display: block;
+    float: left;
+    color: black;
+}
+
 .center .f {
     width: 210px;
     height: 65px;
     border: 1px solid #c0daf7;
     border-radius: 5px;
-}
-
-.center .a {
-    width: 210px;
-    height: 65px;
-    border: 1px solid #c0daf7;
-    border-radius: 5px;
-}
-
-.center .f {
     margin-left: 65px;
 }
 
 .center .a {
+    width: 210px;
+    height: 65px;
+    border: 1px solid #c0daf7;
+    border-radius: 5px;
     margin-left: 10px;
 }
 
