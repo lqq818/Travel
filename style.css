@@ -98,7 +98,8 @@ a {
     text-indent: 2em;
 }
 
-.search .col .photo {
+.search .col a {
+    display: block;
     position: relative;
     left: 463px;
     top: -29px;
@@ -109,4 +110,59 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 35%;
+}
+
+.center {
+    margin-top: 20px;
+    height: 65px;
+}
+
+.center div {
+    float: left;
+}
+
+.center .f {
+    width: 210px;
+    height: 65px;
+    border: 1px solid #c0daf7;
+    border-radius: 5px;
+}
+
+.center .a {
+    width: 210px;
+    height: 65px;
+    border: 1px solid #c0daf7;
+    border-radius: 5px;
+}
+
+.center .f {
+    margin-left: 65px;
+}
+
+.center .a {
+    margin-left: 10px;
+}
+
+.center .word {
+    height: 53px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.center .photo {
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: -12px;
+}
+
+.center .word .title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.center .word .explain {
+    margin-top: 5px;
+    font-size: 12px;
 }
